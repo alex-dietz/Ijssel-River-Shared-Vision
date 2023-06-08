@@ -1,7 +1,7 @@
 """
 Created on Sun Oct 29 15:55:19 2017
 
-@author: Gelderland Province
+@author: Gelderlans Province
 """
 
 import pandas as pd
