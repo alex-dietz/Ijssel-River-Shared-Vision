@@ -48,7 +48,7 @@ Risk_transfer_DI_1,Dike Increase risk transfer exploration s1,Gelderland,Explora
 Risk_transfer_DI_2,Dike Increase risk transfer exploration s2,Gelderland,Exploration,Explore how a progressive implementation of the infrastructure measures transfer risks downstream.,0,0,0,0,0,0,10,10,0,0,0,Exploration,
 Risk_transfer_DI_3,Dike Increase risk transfer exploration s3,Gelderland,Exploration,Explore how a progressive implementation of the infrastructure measures transfer risks downstream.,0,0,0,0,0,0,10,10,10,0,0,Exploration,
 Risk_transfer_DI_4,Dike Increase risk transfer exploration s4,Gelderland,Exploration,Explore how a progressive implementation of the infrastructure measures transfer risks downstream.,0,0,0,0,0,0,10,10,10,10,0,Exploration,
-Comb Green,Combination of measures with a green approach,Gelderland,Empirically as part of the open exploration phase,The region adopts a green approach just protecting their urban DR,1,1,0,1,0,0,0,0,4,0,4,Combination,"        Policy(
+Comb Green,Combination of measures with a green approach,Gelderland,Empirically as part of the open exploration phase,The region adopts a green approach just protecting their urban DR,1,1,0,1,0,0,0,0,4,0,4,Empirical proposal,"        Policy(
         ""Comb Green"",
         **dict(
             get_do_nothing_dict(),
@@ -56,7 +56,7 @@ Comb Green,Combination of measures with a green approach,Gelderland,Empirically 
                ""A.1_DikeIncrease 0"": 0,""A.2_DikeIncrease 0"": 0,""A.3_DikeIncrease 0"": 4,""A.4_DikeIncrease 0"": 0, ""A.5_DikeIncrease 0"": 0,
                'EWS_DaysToThreat':0
                })),"
-Comb Grey,Combination of measures with a grey approach,Gelderland,Empirically as part of the open exploration phase,The region adopts a grey approach just protecting their urban DR,0,1,0,1,0,0,4,0,8,0,8,Combination,"        Policy(
+Comb Grey,Combination of measures with a grey approach,Gelderland,Empirically as part of the open exploration phase,The region adopts a grey approach just protecting their urban DR,0,1,0,1,0,0,4,0,8,0,8,Empirical proposal,"        Policy(
         ""Comb Grey"",
         **dict(
             get_do_nothing_dict(),
@@ -64,7 +64,7 @@ Comb Grey,Combination of measures with a grey approach,Gelderland,Empirically as
                ""A.1_DikeIncrease 0"": 3,""A.2_DikeIncrease 0"": 0,""A.3_DikeIncrease 0"": 4,""A.4_DikeIncrease 0"": 0, ""A.5_DikeIncrease 0"": 4,
                'EWS_DaysToThreat':0
                })),"
-Comb GreenEWS,Combination of measures with a green approach,Gelderland,Empirically as part of the open exploration phase,The region adopts a green approach with EWS just protecting their urban DR,0,1,0,1,0,4,0,0,4,0,4,Combination,"        Policy(
+Comb GreenEWS,Combination of measures with a green approach,Gelderland,Empirically as part of the open exploration phase,The region adopts a green approach with EWS just protecting their urban DR,0,1,0,1,0,4,0,0,4,0,4,Empirical proposal,"        Policy(
         ""Comb GreenEWS"",
         **dict(
             get_do_nothing_dict(),
@@ -127,7 +127,12 @@ GEL_analysts_2,MOEA outcome 2,Gel_analysts,"PRIM, MOEA",,1,0,1,1,0,3,2,0,3,3,0,O
 GEL_analysts_3,MOEA outcome 3,Gel_analysts,"PRIM, MOEA",,0,0,0,0,0,1,4,2,3,0,3,Optimization proposal,
 OvI_low,Overijssel proposal,Overijssel Province,Empirically,Based on risk assessment and environmental concerns for both provinces and lobby groups.,1,0,0,1,0,0,0,1,3,0,3,Empirical proposal,
 OvI_mid,Overijssel proposal,Overijssel Province,Empirically,Based on risk assessment and environmental concerns for both provinces and lobby groups.,1,0,0,1,0,0,0,2,5,0,5,Empirical proposal,
-OvI_high,Overijssel proposal,Overijssel Province,Empirically,Based on risk assessment and socioenvionrmental concerns for both provinces and lobby groups.,1,0,0,1,0,0,0,3,8,0,8,Empirical proposal,
+OvI_high,Overijssel proposal,Overijssel Province,Empirically,Based on risk assessment and socioenvionrmental concerns for both provinces and lobby groups.,1,0,0,1,0,0,0,3,8,0,8,Empyrical proposal,
 Joint_Gel&Ovi_RiskReduction,,,,,1,0,0,1,0,0,2,4,7,2,7,Empyrical proposal,
 Joint_Gel&Ovi_Env,,,,,1,1,0,1,0,0,2,2,7,2,7,Empyrical proposal,
-Joint_Gel&Ovi_LowCost,,,,,1,0,0,0,0,0,0,7,7,3,7,Empyrical proposal,
+Joint_Gel&Ovi_LowCost,,,,,1,0,0,0,0,0,0,7,7,3,7,Empirical proposal,
+GEL_analysts_4,MOEA overijsel 1,Gel_analysts,"PRIM, MOEA",MOEA with overijssel  constraints,0,0,1,0,0,1,4,0,3,1,3,Optimization proposal,
+GEL_analysts_5,MOEA overijsel 2,Gel_analysts,"PRIM, MOEA",MOEA with overijssel  constraints,1,0,1,0,0,0,2,0,3,0,3,Optimization proposal,
+Joint_Gel&Ovi_Best,,,,,0,1,0,0,0,0,4,4,7,2,7,Empyrical proposal,
+Joint_Gel&Ovi_Best_low cost,,,,,1,0,0,0,0,0,5,5,7,2,7,Empyrical proposal,
+Joint_Gel&Ovi_Best_envi,,,,,1,0,0,1,0,0,5,5,6,2,5,Empyrical proposal,
